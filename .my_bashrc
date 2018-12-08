@@ -1,0 +1,9 @@
+alias x='startx'
+alias I='sudo pacman -S'
+alias Is='pacman -Ss'
+alias p3='python3'
+alias p2='python2'
+alias Gpa='git push --all origin'
+alias Gsa='git status -uall'
+
+export PS1="\[\033[38;5;6m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;9m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]\\$ \[$(tput sgr0)\]"
